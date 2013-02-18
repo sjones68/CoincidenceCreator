@@ -149,8 +149,6 @@ arcpy.Rename_management("smoothingFc", "NewRoutes")
 #set Output
 arcpy.AddMessage("\nassigning Output...")
 arcpy.SetParameter(4, "NewRoutes")
-arcpy.MakeFeatureLayer_management("NewRoutes", "NewRoutes1")
-arcpy.SetParameter(4, "NewRoutes1")
 
 #cleanUp
 arcpy.AddMessage("\ncleaning Up")
