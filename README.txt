@@ -14,7 +14,7 @@ This tool has come about through some requirements by the SOuth African National
 Susan Jones
 Spatial Logic Limited
 Auckland, NEW ZEALAND
-30 January 2013
+20 March 2013
 
 #EMAIL
 sjones@spatiallogic.co.nz
@@ -27,10 +27,11 @@ http://www.spatiallogic.co.nz
 4 - Tolerance
 
 #OUTPUT PARAMETERS
-1 - featureSet called MewRoutes in the Geodatabase
+1 - replacement adjusted polygon featurs
+2 - alignment features
 
 #DEPENDANCIES
-arcgis desktop license (arcview)
+arcgis desktop license (arceditor)
 
 #ARCGIS SERVER
 This tool is easily configured for ArcGIS Server but replacing the outWs with the scratch Geodatabase.
